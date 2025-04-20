@@ -1,0 +1,307 @@
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.winky-rough {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5E6E4;
+  }
+  
+header { 
+    background-color: #A6A2A2;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav {
+  background-color: #CFD2CD;
+  text-align: center;
+  font-family: Arial;
+  margin: 0px 0px 20px 0px;
+}
+nav a {
+  display: inline-block;
+  padding: 14px 16px;
+  color: #333;
+}
+nav a:hover {
+  background: #b9bbb8;
+  color: white;
+}
+
+.up img {
+  position: fixed;
+  left: 90%;
+  top: 85%;
+}
+main {
+  width: 70%;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 12% 11% 12% 20% 13% 21% 9%;
+  margin: auto;
+}
+section {
+  background-color: #dddcda;
+  color: #3c3435;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #ccc;
+  }
+
+footer {
+  background-color: #A6A2A2;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.profile {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.profile img {
+  width: 270px;   
+  height: 320px;
+  text-align: center; /* 讓圖片在中間對齊 */
+  margin:30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.info {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+.infos {
+  padding: 0px 30px;
+  line-height: 30px;
+}
+
+.infoh2 p {
+  margin:0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.infocontent p {
+  margin: 10px;;
+}
+
+.infocontent {
+  font-size: 20px;
+}
+.skills {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  padding: 20px;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.skill-item span {
+  display: inline-block;
+  width: 300px; 
+  margin:0px;
+  font-weight: bold;
+}
+
+.bar {
+  display: inline-block;
+  width: 60%;
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  vertical-align: middle;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.fill {
+  height: 100%;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+
+.excel {
+  width: 85%;
+  background-color: #A6A2A2;
+}
+
+.tax {
+  width: 70%;
+  background-color: #A6A2A2;
+}
+
+.book {
+  width: 90%;
+  background-color: #A6A2A2;
+}
+
+.java {
+  width: 60%;
+  background-color: #A6A2A2;
+}
+.cert-award {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+.cert-awardword {
+  padding: 8px 0px 0px 40px;
+  line-height: 40px;
+}
+.cert-awardword p {
+  margin:0px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.ulcert {
+  font-size: 18px;
+  float: left;
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  list-style: disc inside;
+  line-height: 1.8;
+}
+.imgtoeic img {
+  width: 190px;     
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin: -50px 0px 0px 40px;
+  
+}
+
+.club {
+  grid-column: 1/4;
+  grid-row: 4/5
+}
+
+.clubphoto img {
+  width: 350px;   
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #aaa;
+}
+.clubphoto div {
+  display: inline-block;
+  width: 45%;
+  margin: 0 10px;
+}
+
+.cluball {
+padding: 6px 20px;
+line-height: 25px;
+}
+.clubtitle {
+padding: 15px 20px 0px 20px;
+}
+
+.group {
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+.group-content {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.group-text, .group-video {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.group-text {
+  width: 50%;
+  padding: 0px 20px;
+}
+
+.group-video {
+  width: 45%;
+}
+
+.group-word p {
+  line-height: 25px;
+  font-size: 18px;
+}
+.work {
+  grid-column: 1/4;
+  grid-row: 6/7
+}
+.workphoto img {
+  width: 350px;   
+  height: auto;
+  text-align: center; 
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #aaa;
+}
+.workphoto div {
+  display: inline-block;
+  width: 45%;
+  margin: 0 10px;
+}
+.workall {
+  padding: 15px 20px;
+  line-height: 25px;
+}
+.worktitle {
+  padding: 0px 20px;
+}
+.contact{
+  grid-column: 1/4;
+  grid-row: 7/8
+}
+.contactall {
+  text-align: left;
+  padding: 20px;
+}
+.contitle p {
+  margin:0px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+}
+
